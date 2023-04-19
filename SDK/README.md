@@ -1,0 +1,1 @@
+# TEST文件中目前只有对于Flash,LED,USART和BMI270的检测(后续有时间会慢慢补充)
