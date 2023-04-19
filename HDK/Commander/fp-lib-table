@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Afflatus")(type "KiCad")(uri "F:/Design/PCB/Afflatus/HDK/Afflatus.pretty")(options "")(descr ""))
+)
