@@ -1,7 +1,8 @@
 # Afflatus💡
 ![me](https://img.shields.io/badge/2023/04-Emotion__Thorn-blue)          ![eda](https://img.shields.io/badge/EDA-KiCad-red) 
-## Afflatus STM32G4xx开源开发板🚀
-* 本次工程使用STM32G431CBU6作为主芯片。通过核心板(**Commaner**)+拓展板(**Expansion**)组成完整开发板
+* [**中文版本**](./README_zh.md)
+## Afflatus STM32G4xx Open Development Board🚀
+* This project used STM32G431 to master chip.A complete board to be made up of **Commaner**+**Expansion**
 >`STM32G431CBU6` Core Board
 
 !["Afflatus_all"](./images/Afflatus_all.jpg)
@@ -12,11 +13,11 @@
 |:--:|:--:|
 |!["up"](./images/Commander_up.jpg)|!["down"](./images/Commander_down.jpg)
 
->目前核心板板载了Flash,LED,NRST和BOOT0按键，预留了串行LCD的接口,需要`0.8mm排线进行连接`
+>At present core boaed onboard Flash,LED,NRST and BOOT0 keys,Reserved serial interface of LDC,Need`0.8mm wire the connection`
 
->Commander使用了`0.8mm`的BTB_2x20P，在`没有连接`Expansion下载程序时可以通过预留SW焊盘焊接`杜邦线`或者接`测试探针`进行下载
+>Commander have used `0.8mm`BTB_2x20P，`Not connected to Expansion`Download program can use reserved SW bonding pad to connected `Cable`or`Test probe`Download program
 
->Commander`没有板载LDO和DC-DC降压`,因此对于核心板单独供电是只能接`3.3V`❗ ❗ ❗
+>Commander`none the LDO and DC-DC to buck`,to the extent that core board power only give`3.3V`❗ ❗ ❗
 
 ## Expansion🔌⚡🚀
 
@@ -24,25 +25,24 @@
 |:--:|:--:|
 |!["up"](./images/Expansion_up.jpg)|!["down"](./images/Expansion_Down.jpg)
 
-* 1个USB支持PD
-* 1个USART转USB接口
-* 1个IMU(BMI270)
-* 1个40P排针 
+* 1 USB support PD
+* 1 USART to USB port
+* 1 IMU(BMI270)
+* 1 40P header 
 
->Expansion有一个`CP2102`可以连接usb进行串口通信。STM32G431CBU6支持`UCPD`所以USB接口支持PD同时拥有一个DC-DC降压模块⚡
+>Expansion have one`CP2102`USB can be connected for serial communication.STM32G431CBU6 support `UCPD`so the USB plug support PD and have one DC-DC buck module⚡
 
->考虑到新手可能不太会用STM32自带的USB硬件控制,所以预留了USBD+上拉电阻CC1,CC2下拉电阻`0402`的焊盘,建议制作时同时焊接CC1和CC2的下拉电阻🔌
+>Consider that newbies may be less likely to use the STM32's built-in USB hardware controls,所以reserved USB_D+ pull-up R CC1,CC2 pull-down R`0402`bonding pad,it's recommended to weld pull-down R for CC1 and CC2🔌
 
->Expansion上嵌入式螺柱的型号是`M2x4x5.0x2.5x1.0`,BTB的合高为`5.0mm`
-I/O引出排针为2.54mm`贴片`.可以选择为Expansion添加亚克力透明底板,[**亚克力文件**](./HDK/Expansion/Choice.dxf)下面是效果图
+>Expansion the type of embedded stud is`M2x4x5.0x2.5x1.0`,BTB combined height is`5.0mm`
+I/O Pin header is 2.54mm`SMT`.Optionally add baseplate for Expansion,[**Baseplate file**](./HDK/Expansion/Choice.dxf)effect maps
 !["Choice"](./images/Choice.jpg)
 
-## 重要声明 ❗ ❗ ❗
+## Important statement ❗ ❗ ❗
 
-*  ⚠️请阅读PCB工程须知pdf文件
-    - 📖[工程声明](./%E5%B7%A5%E7%A8%8B%E5%A3%B0%E6%98%8E.pdf)
-* 👓全工程使用的是两层工艺,如果没有装kicad的小伙伴可以直接查看Bom进行焊接，Gerber文件也在HDK中
+*  ⚠️Please read the PCB Engineering Instructions pdf file
+    - 📖[Engineering declaration](./%E5%B7%A5%E7%A8%8B%E5%A3%B0%E6%98%8E.pdf)
+* 👓The whole project uses a two-layer process. If you don't have kicad installed, you can directly view Bom for welding. Gerber files are also in HDK
     - [**Commander-bom**](./HDK/Commander/bom/Commander.html)
     - [**Expansion-bom**](./HDK/Expansion/bom/Expansion.html)
-* 本人最近比较忙UCPD还没有进行测试，但是USB功能是正常(已经测试)，UCPD使用说明在->./Afflatus/HDK/Design-Flie中，往后要是有小伙伴搞出了UCPD或者我有时间进行补充，我会第一时间进行提交。
-* 本人E-mail**2981263629@qq.com**,如果有疑问或者新的点子可以发邮件给我⌨
+*  I E-mail**2981263629@qq.com**,if you have questions or new idea can send an email to me⌨
