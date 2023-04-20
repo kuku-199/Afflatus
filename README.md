@@ -32,7 +32,7 @@
 
 >Expansion have one`CP2102`USB can be connected for serial communication.STM32G431CBU6 support `UCPD`so the USB plug support PD and have one DC-DC buck module⚡
 
->Consider that newbies may be less likely to use the STM32's built-in USB hardware controls,所以reserved USB_D+ pull-up R CC1,CC2 pull-down R`0402`bonding pad,it's recommended to weld pull-down R for CC1 and CC2🔌
+>Consider that newbies may be less likely to use the STM32's built-in USB hardware controls,so i reserved USB_D+ pull-up R CC1,CC2 pull-down R`0402`bonding pad,it's recommended to weld pull-down R for CC1 and CC2🔌
 
 >Expansion the type of embedded stud is`M2x4x5.0x2.5x1.0`,BTB combined height is`5.0mm`
 I/O Pin header is 2.54mm`SMT`.Optionally add baseplate for Expansion,[**Baseplate file**](./HDK/Expansion/Choice.dxf)effect maps
