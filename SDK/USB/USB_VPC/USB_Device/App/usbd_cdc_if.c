@@ -265,12 +265,12 @@ static int8_t CDC_Receive_FS(uint8_t* Buf, uint32_t *Len)
 	
   /* USER CODE BEGIN 6 */
 #if (USB_VPC_SPEED_TEST==1)
-if(Buf[0]=='S')
+if(Buf[0]=='T')
 			{
 				flag = 1;
 				CDC_Transmit_FS(UserTxBufferFS, APP_TX_DATA_SIZE);
 			}
-			if(Buf[0]=='E')
+			if(Buf[0]=='R')
 			{
 				flag = 0;
 			}

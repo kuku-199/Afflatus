@@ -46,7 +46,7 @@ extern "C" {
 
 /* Exported macro ------------------------------------------------------------*/
 /* USER CODE BEGIN EM */
-#define USB_VPC_SPEED_TEST  1
+#define USB_VPC_SPEED_TEST  1 /*0 OFF SPEED_TEST 1 ON SPEED_TEST */
 /* USER CODE END EM */
 
 /* Exported functions prototypes ---------------------------------------------*/
