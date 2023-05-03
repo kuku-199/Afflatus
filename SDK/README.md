@@ -1,1 +1,4 @@
-# TEST文件中目前只有对于Flash,LED,USART和BMI270的检测(后续有时间会慢慢补充)
+# Ongoing update馃摛
+## Test file can test flash usart usb imu(bmi270) and led(Suggestion after created Download this program)馃帿
+## USB file have more example about developement of USB_Deviec.
+* ## [**Detailed description(USB)**](./USB/READ.md)馃憟
