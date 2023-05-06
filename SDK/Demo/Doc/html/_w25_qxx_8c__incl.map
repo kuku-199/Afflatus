@@ -1,5 +1,5 @@
-<map id="F:/Design/PCB/Afflatus/SDK/Demo/FLASH_DEMO/Functions/W25Qxx.c" name="F:/Design/PCB/Afflatus/SDK/Demo/FLASH_DEMO/Functions/W25Qxx.c">
-<area shape="rect" id="node1" title="This file provides information about the W25Qxx firmware functions." alt="" coords="5,5,249,60"/>
-<area shape="rect" id="node2" href="$_w25_qxx_8h.html" title="Header file of W25Qxx module." alt="" coords="85,108,169,133"/>
-<area shape="rect" id="node3" title=" " alt="" coords="102,181,153,207"/>
+<map id="W25Qxx.c" name="W25Qxx.c">
+<area shape="rect" id="node1" title="This file provides information about the W25Qxx firmware functions." alt="" coords="5,5,89,31"/>
+<area shape="rect" id="node2" href="$_w25_qxx_8h.html" title="Header file of W25Qxx module." alt="" coords="5,79,89,104"/>
+<area shape="rect" id="node3" title=" " alt="" coords="22,152,73,177"/>
 </map>

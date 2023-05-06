@@ -23,76 +23,58 @@
   <UL>
   <LI><OBJECT type="text/sitemap"><param name="Name" value="File List"><param name="Local" value="files.html#top"><param name="ImageNumber" value="1"></OBJECT>
     <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Name" value="Design"><param name="Local" value="dir_e933556c2d91ca26d574a9556ecaee86.html"><param name="ImageNumber" value="1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Functions"><param name="Local" value="dir_300faf08c8fb8933ad9035892dcb9a31.html"><param name="ImageNumber" value="1"></OBJECT>
       <UL>
-      <LI><OBJECT type="text/sitemap"><param name="Name" value="PCB"><param name="Local" value="dir_cdaeb1ec09d993d9c52abf47830456a5.html"><param name="ImageNumber" value="1"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qxx.c"><param name="Local" value="_w25_qxx_8c.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="Afflatus"><param name="Local" value="dir_56806fa7aa2d42d2c8721a958530418d.html"><param name="ImageNumber" value="1"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Flash_Read_Byte"><param name="Local" value="_w25_qxx_8c.html#a34270ec61520ad2a6594a82ad5e6fe82"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Flash_Send_Byte"><param name="Local" value="_w25_qxx_8c.html#af371a15d762502493e17f942d748ab3e"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_Coerce_Reset"><param name="Local" value="group___w25_qxx___exported___functions.html#ga2f4276de702f2df72969f0d9c0e138bc"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_Erase_Sector"><param name="Local" value="group___w25_qxx___exported___functions.html#ga2caae9586abcb6b8ea3c861d5936d9f8"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_EraseALL"><param name="Local" value="group___w25_qxx___exported___functions.html#gadc2e1c604b673dd37af5668362323d4b"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_Read_Data"><param name="Local" value="group___w25_qxx___exported___functions.html#ga93b23a00ebca78512ca3c5f48579e165"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_Read_ID_16"><param name="Local" value="group___w25_qxx___exported___functions.html#ga3204cb041051122d7a67bfce5e03362e"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_Read_ID_8"><param name="Local" value="group___w25_qxx___exported___functions.html#ga24cb218a5b913e686b7c84963a7dc1ce"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_Reset"><param name="Local" value="group___w25_qxx___exported___functions.html#gac56d3a6b033cf74f79fdbed4439713c3"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_Write_Data"><param name="Local" value="group___w25_qxx___exported___functions.html#ga8346849ab518385eaa285c2369b56e9f"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_WriteEnable"><param name="Local" value="group___w25_qxx___exported___functions.html#ga9637aa507d1a0ebf058661f83fc539ec"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qxx.h"><param name="Local" value="_w25_qxx_8h.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="FLASH_All_Erase"><param name="Local" value="_w25_qxx_8h.html#acbc68e732bf512c98550d8286ea30a60"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Flash_CS_Discard"><param name="Local" value="_w25_qxx_8h.html#ae4ad1ec961c1f40ae1d86c28858da634"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Flash_CS_Select"><param name="Local" value="_w25_qxx_8h.html#a4fcc517c6b5550dcf78f357b62b2d915"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="FLASH_Empty"><param name="Local" value="_w25_qxx_8h.html#a6b59c983ae21d8d87d4b6199c67e6ee2"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="FLASH_Enable_Reset"><param name="Local" value="_w25_qxx_8h.html#ad8213b2026298c8ccd2aa0a1700f326e"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="FLASH_ENABLE_Write"><param name="Local" value="_w25_qxx_8h.html#a31594987e946d454ba756411759bf2e2"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="FLASH_Erase"><param name="Local" value="_w25_qxx_8h.html#a06e512a40b9b9fd70a5418ae36321cde"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="FLASH_ID_16Byte"><param name="Local" value="_w25_qxx_8h.html#a36a421a4bfdd773d64dfd9aa44d197fc"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="FLASH_ID_8Byte"><param name="Local" value="_w25_qxx_8h.html#ad9b07a83d27301170f79e099dd940fe5"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="FLASH_Read"><param name="Local" value="_w25_qxx_8h.html#a371291e5c71a3cbd1de3f550c8f928a8"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="FLASH_Reset_Device"><param name="Local" value="_w25_qxx_8h.html#aae6b121ef8f92367a1b9dd55ca4d30b2"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="FLASH_Write"><param name="Local" value="_w25_qxx_8h.html#af604a6fd6c4c431959d1bf7c66a64008"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Read_Status_Reg_1"><param name="Local" value="_w25_qxx_8h.html#a67e31a25044821b15b1df8749802692f"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Read_Status_Reg_2"><param name="Local" value="_w25_qxx_8h.html#a98dc5455c94ccc67f05be2bbebd74329"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Read_Status_Reg_3"><param name="Local" value="_w25_qxx_8h.html#abcb681a7856bcb1ca1e14dc72c238271"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_Erase_TIMEOUT_VALUE"><param name="Local" value="_w25_qxx_8h.html#a302da4b35f664b61cf0096c875c0e126"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="W25QX_PAGE_SIZE"><param name="Local" value="_w25_qxx_8h.html#ade349fbc9427f1e8674d8432040ff2d9"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_TIMEOUT_VALUE"><param name="Local" value="_w25_qxx_8h.html#afbbdaaab839393e45afaf6d8723fb829"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_StatusTypeDef"><param name="Local" value="_w25_qxx_8h.html#a60b5a99890e6b2a594ea0da99a7fc500"><param name="ImageNumber" value="1"></OBJECT>
           <UL>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="SDK"><param name="Local" value="dir_9546bc1ecc2926c5fbd541180973060c.html"><param name="ImageNumber" value="1"></OBJECT>
-            <UL>
-            <LI><OBJECT type="text/sitemap"><param name="Name" value="Demo"><param name="Local" value="dir_e8567da8b3844d4061eab963c4866e41.html"><param name="ImageNumber" value="1"></OBJECT>
-              <UL>
-              <LI><OBJECT type="text/sitemap"><param name="Name" value="FLASH_DEMO"><param name="Local" value="dir_26ab21336884a67eae6af67b97b1b0c3.html"><param name="ImageNumber" value="1"></OBJECT>
-                <UL>
-                <LI><OBJECT type="text/sitemap"><param name="Name" value="Functions"><param name="Local" value="dir_1d031143bcc186272a16d6d1b7d00383.html"><param name="ImageNumber" value="1"></OBJECT>
-                  <UL>
-                  <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qxx.c"><param name="Local" value="_w25_qxx_8c.html"><param name="ImageNumber" value="1"></OBJECT>
-                    <UL>
-                    <LI><OBJECT type="text/sitemap"><param name="Name" value="Flash_Read_Byte"><param name="Local" value="_w25_qxx_8c.html#a34270ec61520ad2a6594a82ad5e6fe82"><param name="ImageNumber" value="11"></OBJECT>
-                    <LI><OBJECT type="text/sitemap"><param name="Name" value="Flash_Send_Byte"><param name="Local" value="_w25_qxx_8c.html#af371a15d762502493e17f942d748ab3e"><param name="ImageNumber" value="11"></OBJECT>
-                    <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_Coerce_Reset"><param name="Local" value="group___w25_qxx___exported___functions.html#ga2f4276de702f2df72969f0d9c0e138bc"><param name="ImageNumber" value="11"></OBJECT>
-                    <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_Erase_Sector"><param name="Local" value="group___w25_qxx___exported___functions.html#ga2caae9586abcb6b8ea3c861d5936d9f8"><param name="ImageNumber" value="11"></OBJECT>
-                    <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_EraseALL"><param name="Local" value="group___w25_qxx___exported___functions.html#gadc2e1c604b673dd37af5668362323d4b"><param name="ImageNumber" value="11"></OBJECT>
-                    <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_Read_Data"><param name="Local" value="group___w25_qxx___exported___functions.html#ga93b23a00ebca78512ca3c5f48579e165"><param name="ImageNumber" value="11"></OBJECT>
-                    <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_Read_ID_16"><param name="Local" value="group___w25_qxx___exported___functions.html#ga3204cb041051122d7a67bfce5e03362e"><param name="ImageNumber" value="11"></OBJECT>
-                    <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_Read_ID_8"><param name="Local" value="group___w25_qxx___exported___functions.html#ga24cb218a5b913e686b7c84963a7dc1ce"><param name="ImageNumber" value="11"></OBJECT>
-                    <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_Reset"><param name="Local" value="group___w25_qxx___exported___functions.html#gac56d3a6b033cf74f79fdbed4439713c3"><param name="ImageNumber" value="11"></OBJECT>
-                    <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_Write_Data"><param name="Local" value="group___w25_qxx___exported___functions.html#ga8346849ab518385eaa285c2369b56e9f"><param name="ImageNumber" value="11"></OBJECT>
-                    <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_WriteEnable"><param name="Local" value="group___w25_qxx___exported___functions.html#ga9637aa507d1a0ebf058661f83fc539ec"><param name="ImageNumber" value="11"></OBJECT>
-                    </UL>
-                  <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qxx.h"><param name="Local" value="_w25_qxx_8h.html"><param name="ImageNumber" value="1"></OBJECT>
-                    <UL>
-                    <LI><OBJECT type="text/sitemap"><param name="Name" value="FLASH_All_Erase"><param name="Local" value="_w25_qxx_8h.html#acbc68e732bf512c98550d8286ea30a60"><param name="ImageNumber" value="11"></OBJECT>
-                    <LI><OBJECT type="text/sitemap"><param name="Name" value="Flash_CS_Discard"><param name="Local" value="_w25_qxx_8h.html#ae4ad1ec961c1f40ae1d86c28858da634"><param name="ImageNumber" value="11"></OBJECT>
-                    <LI><OBJECT type="text/sitemap"><param name="Name" value="Flash_CS_Select"><param name="Local" value="_w25_qxx_8h.html#a4fcc517c6b5550dcf78f357b62b2d915"><param name="ImageNumber" value="11"></OBJECT>
-                    <LI><OBJECT type="text/sitemap"><param name="Name" value="FLASH_Empty"><param name="Local" value="_w25_qxx_8h.html#a6b59c983ae21d8d87d4b6199c67e6ee2"><param name="ImageNumber" value="11"></OBJECT>
-                    <LI><OBJECT type="text/sitemap"><param name="Name" value="FLASH_Enable_Reset"><param name="Local" value="_w25_qxx_8h.html#ad8213b2026298c8ccd2aa0a1700f326e"><param name="ImageNumber" value="11"></OBJECT>
-                    <LI><OBJECT type="text/sitemap"><param name="Name" value="FLASH_ENABLE_Write"><param name="Local" value="_w25_qxx_8h.html#a31594987e946d454ba756411759bf2e2"><param name="ImageNumber" value="11"></OBJECT>
-                    <LI><OBJECT type="text/sitemap"><param name="Name" value="FLASH_Erase"><param name="Local" value="_w25_qxx_8h.html#a06e512a40b9b9fd70a5418ae36321cde"><param name="ImageNumber" value="11"></OBJECT>
-                    <LI><OBJECT type="text/sitemap"><param name="Name" value="FLASH_ID_16Byte"><param name="Local" value="_w25_qxx_8h.html#a36a421a4bfdd773d64dfd9aa44d197fc"><param name="ImageNumber" value="11"></OBJECT>
-                    <LI><OBJECT type="text/sitemap"><param name="Name" value="FLASH_ID_8Byte"><param name="Local" value="_w25_qxx_8h.html#ad9b07a83d27301170f79e099dd940fe5"><param name="ImageNumber" value="11"></OBJECT>
-                    <LI><OBJECT type="text/sitemap"><param name="Name" value="FLASH_Read"><param name="Local" value="_w25_qxx_8h.html#a371291e5c71a3cbd1de3f550c8f928a8"><param name="ImageNumber" value="11"></OBJECT>
-                    <LI><OBJECT type="text/sitemap"><param name="Name" value="FLASH_Reset_Device"><param name="Local" value="_w25_qxx_8h.html#aae6b121ef8f92367a1b9dd55ca4d30b2"><param name="ImageNumber" value="11"></OBJECT>
-                    <LI><OBJECT type="text/sitemap"><param name="Name" value="FLASH_Write"><param name="Local" value="_w25_qxx_8h.html#af604a6fd6c4c431959d1bf7c66a64008"><param name="ImageNumber" value="11"></OBJECT>
-                    <LI><OBJECT type="text/sitemap"><param name="Name" value="Read_Status_Reg_1"><param name="Local" value="_w25_qxx_8h.html#a67e31a25044821b15b1df8749802692f"><param name="ImageNumber" value="11"></OBJECT>
-                    <LI><OBJECT type="text/sitemap"><param name="Name" value="Read_Status_Reg_2"><param name="Local" value="_w25_qxx_8h.html#a98dc5455c94ccc67f05be2bbebd74329"><param name="ImageNumber" value="11"></OBJECT>
-                    <LI><OBJECT type="text/sitemap"><param name="Name" value="Read_Status_Reg_3"><param name="Local" value="_w25_qxx_8h.html#abcb681a7856bcb1ca1e14dc72c238271"><param name="ImageNumber" value="11"></OBJECT>
-                    <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_Erase_TIMEOUT_VALUE"><param name="Local" value="_w25_qxx_8h.html#a302da4b35f664b61cf0096c875c0e126"><param name="ImageNumber" value="11"></OBJECT>
-                    <LI><OBJECT type="text/sitemap"><param name="Name" value="W25QX_PAGE_SIZE"><param name="Local" value="_w25_qxx_8h.html#ade349fbc9427f1e8674d8432040ff2d9"><param name="ImageNumber" value="11"></OBJECT>
-                    <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_TIMEOUT_VALUE"><param name="Local" value="_w25_qxx_8h.html#afbbdaaab839393e45afaf6d8723fb829"><param name="ImageNumber" value="11"></OBJECT>
-                    <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_StatusTypeDef"><param name="Local" value="_w25_qxx_8h.html#a60b5a99890e6b2a594ea0da99a7fc500"><param name="ImageNumber" value="1"></OBJECT>
-                      <UL>
-                      <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_OK"><param name="Local" value="_w25_qxx_8h.html#a60b5a99890e6b2a594ea0da99a7fc500a03237e03fd445eec2c27542929a5cc25"><param name="ImageNumber" value="11"></OBJECT>
-                      <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_ERROR"><param name="Local" value="_w25_qxx_8h.html#a60b5a99890e6b2a594ea0da99a7fc500a3616b0dbff2aac1770d026ba88895cbc"><param name="ImageNumber" value="11"></OBJECT>
-                      <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_BUSY"><param name="Local" value="_w25_qxx_8h.html#a60b5a99890e6b2a594ea0da99a7fc500ab5a37844d8c56fb94e25bda7efdb37a6"><param name="ImageNumber" value="11"></OBJECT>
-                      <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_TimeOut"><param name="Local" value="_w25_qxx_8h.html#a60b5a99890e6b2a594ea0da99a7fc500aa72aad6c212d5811bad1a9640d7a5ee8"><param name="ImageNumber" value="11"></OBJECT>
-                      </UL>
-                    <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_Coerce_Reset"><param name="Local" value="group___w25_qxx___exported___functions.html#ga2f4276de702f2df72969f0d9c0e138bc"><param name="ImageNumber" value="11"></OBJECT>
-                    <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_Erase_Sector"><param name="Local" value="group___w25_qxx___exported___functions.html#ga2caae9586abcb6b8ea3c861d5936d9f8"><param name="ImageNumber" value="11"></OBJECT>
-                    <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_EraseALL"><param name="Local" value="group___w25_qxx___exported___functions.html#gadc2e1c604b673dd37af5668362323d4b"><param name="ImageNumber" value="11"></OBJECT>
-                    <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_Read_Data"><param name="Local" value="group___w25_qxx___exported___functions.html#ga93b23a00ebca78512ca3c5f48579e165"><param name="ImageNumber" value="11"></OBJECT>
-                    <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_Read_ID_16"><param name="Local" value="group___w25_qxx___exported___functions.html#ga3204cb041051122d7a67bfce5e03362e"><param name="ImageNumber" value="11"></OBJECT>
-                    <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_Read_ID_8"><param name="Local" value="group___w25_qxx___exported___functions.html#ga24cb218a5b913e686b7c84963a7dc1ce"><param name="ImageNumber" value="11"></OBJECT>
-                    <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_Reset"><param name="Local" value="group___w25_qxx___exported___functions.html#gac56d3a6b033cf74f79fdbed4439713c3"><param name="ImageNumber" value="11"></OBJECT>
-                    <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_Write_Data"><param name="Local" value="group___w25_qxx___exported___functions.html#ga8346849ab518385eaa285c2369b56e9f"><param name="ImageNumber" value="11"></OBJECT>
-                    <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_WriteEnable"><param name="Local" value="group___w25_qxx___exported___functions.html#ga9637aa507d1a0ebf058661f83fc539ec"><param name="ImageNumber" value="11"></OBJECT>
-                    </UL>
-                  </UL>
-                </UL>
-              </UL>
-            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_OK"><param name="Local" value="_w25_qxx_8h.html#a60b5a99890e6b2a594ea0da99a7fc500a03237e03fd445eec2c27542929a5cc25"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_ERROR"><param name="Local" value="_w25_qxx_8h.html#a60b5a99890e6b2a594ea0da99a7fc500a3616b0dbff2aac1770d026ba88895cbc"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_BUSY"><param name="Local" value="_w25_qxx_8h.html#a60b5a99890e6b2a594ea0da99a7fc500ab5a37844d8c56fb94e25bda7efdb37a6"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_TimeOut"><param name="Local" value="_w25_qxx_8h.html#a60b5a99890e6b2a594ea0da99a7fc500aa72aad6c212d5811bad1a9640d7a5ee8"><param name="ImageNumber" value="11"></OBJECT>
           </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_Coerce_Reset"><param name="Local" value="group___w25_qxx___exported___functions.html#ga2f4276de702f2df72969f0d9c0e138bc"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_Erase_Sector"><param name="Local" value="group___w25_qxx___exported___functions.html#ga2caae9586abcb6b8ea3c861d5936d9f8"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_EraseALL"><param name="Local" value="group___w25_qxx___exported___functions.html#gadc2e1c604b673dd37af5668362323d4b"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_Read_Data"><param name="Local" value="group___w25_qxx___exported___functions.html#ga93b23a00ebca78512ca3c5f48579e165"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_Read_ID_16"><param name="Local" value="group___w25_qxx___exported___functions.html#ga3204cb041051122d7a67bfce5e03362e"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_Read_ID_8"><param name="Local" value="group___w25_qxx___exported___functions.html#ga24cb218a5b913e686b7c84963a7dc1ce"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_Reset"><param name="Local" value="group___w25_qxx___exported___functions.html#gac56d3a6b033cf74f79fdbed4439713c3"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_Write_Data"><param name="Local" value="group___w25_qxx___exported___functions.html#ga8346849ab518385eaa285c2369b56e9f"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="W25Qx_WriteEnable"><param name="Local" value="group___w25_qxx___exported___functions.html#ga9637aa507d1a0ebf058661f83fc539ec"><param name="ImageNumber" value="11"></OBJECT>
         </UL>
       </UL>
     </UL>

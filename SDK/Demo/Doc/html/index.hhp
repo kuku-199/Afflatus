@@ -6,23 +6,17 @@ Default Window=main
 Default topic=index.html
 Index file=index.hhk
 Language=0x409 English (United States)
-Title=Demo
+Title=Demo_Flash
 
 [WINDOWS]
-main="Demo","index.hhc","index.hhk","index.html","index.html",,,,,0x23520,,0x10387e,,,,,,,,0
+main="Demo_Flash","index.hhc","index.hhk","index.html","index.html",,,,,0x23520,,0x10387e,,,,,,,,0
 
 [FILES]
 _w25_qxx_8c.html
 _w25_qxx_8c_source.html
 _w25_qxx_8h.html
 _w25_qxx_8h_source.html
-dir_1d031143bcc186272a16d6d1b7d00383.html
-dir_26ab21336884a67eae6af67b97b1b0c3.html
-dir_56806fa7aa2d42d2c8721a958530418d.html
-dir_9546bc1ecc2926c5fbd541180973060c.html
-dir_cdaeb1ec09d993d9c52abf47830456a5.html
-dir_e8567da8b3844d4061eab963c4866e41.html
-dir_e933556c2d91ca26d574a9556ecaee86.html
+dir_300faf08c8fb8933ad9035892dcb9a31.html
 files.html
 globals.html
 globals_defs.html
@@ -34,28 +28,13 @@ group___w25_qxx___exported___functions.html
 index.html
 modules.html
 T22.jpg
-_w25_qxx_8c__incl.pdf
 _w25_qxx_8c__incl.png
-_w25_qxx_8h__dep__incl.pdf
 _w25_qxx_8h__dep__incl.png
-_w25_qxx_8h__incl.pdf
 _w25_qxx_8h__incl.png
 bc_s.png
 bc_sd.png
 bdwn.png
 closed.png
-dir_1d031143bcc186272a16d6d1b7d00383_dep.pdf
-dir_1d031143bcc186272a16d6d1b7d00383_dep.png
-dir_26ab21336884a67eae6af67b97b1b0c3_dep.pdf
-dir_26ab21336884a67eae6af67b97b1b0c3_dep.png
-dir_56806fa7aa2d42d2c8721a958530418d_dep.pdf
-dir_56806fa7aa2d42d2c8721a958530418d_dep.png
-dir_9546bc1ecc2926c5fbd541180973060c_dep.pdf
-dir_9546bc1ecc2926c5fbd541180973060c_dep.png
-dir_cdaeb1ec09d993d9c52abf47830456a5_dep.pdf
-dir_cdaeb1ec09d993d9c52abf47830456a5_dep.png
-dir_e8567da8b3844d4061eab963c4866e41_dep.pdf
-dir_e8567da8b3844d4061eab963c4866e41_dep.png
 doc.png
 docd.png
 doxygen.svg
