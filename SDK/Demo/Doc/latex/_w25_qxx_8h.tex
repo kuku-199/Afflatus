@@ -1,0 +1,337 @@
+\hypertarget{_w25_qxx_8h}{}\doxysection{F\+:/\+Design/\+PCB/\+Afflatus/\+SDK/\+Demo/\+FLASH\+\_\+\+DEMO/\+Functions/\+W25\+Qxx.h File Reference}
+\label{_w25_qxx_8h}\index{F:/Design/PCB/Afflatus/SDK/Demo/FLASH\_DEMO/Functions/W25Qxx.h@{F:/Design/PCB/Afflatus/SDK/Demo/FLASH\_DEMO/Functions/W25Qxx.h}}
+
+
+Header file of W25\+Qxx module.  
+
+
+{\ttfamily \#include \char`\"{}spi.\+h\char`\"{}}\newline
+Include dependency graph for W25\+Qxx.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=263pt]{_w25_qxx_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=263pt]{_w25_qxx_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{_w25_qxx_8h_a4fcc517c6b5550dcf78f357b62b2d915}{Flash\+\_\+\+CS\+\_\+\+Select}}()~HAL\+\_\+\+GPIO\+\_\+\+Write\+Pin(Flash\+\_\+\+CS\+\_\+\+GPIO\+\_\+\+Port, Flash\+\_\+\+CS\+\_\+\+Pin, GPIO\+\_\+\+PIN\+\_\+\+RESET)
+\item 
+\#define \mbox{\hyperlink{_w25_qxx_8h_ae4ad1ec961c1f40ae1d86c28858da634}{Flash\+\_\+\+CS\+\_\+\+Discard}}()~HAL\+\_\+\+GPIO\+\_\+\+Write\+Pin(Flash\+\_\+\+CS\+\_\+\+GPIO\+\_\+\+Port, Flash\+\_\+\+CS\+\_\+\+Pin, GPIO\+\_\+\+PIN\+\_\+\+SET)
+\item 
+\#define \mbox{\hyperlink{_w25_qxx_8h_a302da4b35f664b61cf0096c875c0e126}{W25\+Qx\+\_\+\+Erase\+\_\+\+TIMEOUT\+\_\+\+VALUE}}~5000
+\begin{DoxyCompactList}\small\item\em W25\+Qxx Configuration. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{_w25_qxx_8h_afbbdaaab839393e45afaf6d8723fb829}{W25\+Qx\+\_\+\+TIMEOUT\+\_\+\+VALUE}}~1000
+\item 
+\#define \mbox{\hyperlink{_w25_qxx_8h_ade349fbc9427f1e8674d8432040ff2d9}{W25\+QX\+\_\+\+PAGE\+\_\+\+SIZE}}~0x100
+\item 
+\#define \mbox{\hyperlink{_w25_qxx_8h_ad8213b2026298c8ccd2aa0a1700f326e}{FLASH\+\_\+\+Enable\+\_\+\+Reset}}~0x66
+\begin{DoxyCompactList}\small\item\em W25\+Qxx Commands. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{_w25_qxx_8h_aae6b121ef8f92367a1b9dd55ca4d30b2}{FLASH\+\_\+\+Reset\+\_\+\+Device}}~0x99
+\item 
+\#define \mbox{\hyperlink{_w25_qxx_8h_a6b59c983ae21d8d87d4b6199c67e6ee2}{FLASH\+\_\+\+Empty}}~0x00
+\item 
+\#define \mbox{\hyperlink{_w25_qxx_8h_a36a421a4bfdd773d64dfd9aa44d197fc}{FLASH\+\_\+\+ID\+\_\+16\+Byte}}~0x90
+\item 
+\#define \mbox{\hyperlink{_w25_qxx_8h_ad9b07a83d27301170f79e099dd940fe5}{FLASH\+\_\+\+ID\+\_\+8\+Byte}}~0x\+AB
+\item 
+\#define \mbox{\hyperlink{_w25_qxx_8h_a31594987e946d454ba756411759bf2e2}{FLASH\+\_\+\+ENABLE\+\_\+\+Write}}~0x06
+\item 
+\#define \mbox{\hyperlink{_w25_qxx_8h_a06e512a40b9b9fd70a5418ae36321cde}{FLASH\+\_\+\+Erase}}~0x20
+\item 
+\#define \mbox{\hyperlink{_w25_qxx_8h_acbc68e732bf512c98550d8286ea30a60}{FLASH\+\_\+\+All\+\_\+\+Erase}}~0x\+C7
+\item 
+\#define \mbox{\hyperlink{_w25_qxx_8h_a371291e5c71a3cbd1de3f550c8f928a8}{FLASH\+\_\+\+Read}}~0x03
+\item 
+\#define \mbox{\hyperlink{_w25_qxx_8h_af604a6fd6c4c431959d1bf7c66a64008}{FLASH\+\_\+\+Write}}~0x02
+\item 
+\#define \mbox{\hyperlink{_w25_qxx_8h_a67e31a25044821b15b1df8749802692f}{Read\+\_\+\+Status\+\_\+\+Reg\+\_\+1}}~0x05
+\item 
+\#define \mbox{\hyperlink{_w25_qxx_8h_a98dc5455c94ccc67f05be2bbebd74329}{Read\+\_\+\+Status\+\_\+\+Reg\+\_\+2}}~0x35
+\item 
+\#define \mbox{\hyperlink{_w25_qxx_8h_abcb681a7856bcb1ca1e14dc72c238271}{Read\+\_\+\+Status\+\_\+\+Reg\+\_\+3}}~015
+\end{DoxyCompactItemize}
+\doxysubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{_w25_qxx_8h_a60b5a99890e6b2a594ea0da99a7fc500}{W25\+Qx\+\_\+\+Status\+Type\+Def}} \{ \mbox{\hyperlink{_w25_qxx_8h_a60b5a99890e6b2a594ea0da99a7fc500a03237e03fd445eec2c27542929a5cc25}{W25\+Qx\+\_\+\+OK}} = 0x00U
+, \mbox{\hyperlink{_w25_qxx_8h_a60b5a99890e6b2a594ea0da99a7fc500a3616b0dbff2aac1770d026ba88895cbc}{W25\+Qx\+\_\+\+ERROR}} = 0x01U
+, \mbox{\hyperlink{_w25_qxx_8h_a60b5a99890e6b2a594ea0da99a7fc500ab5a37844d8c56fb94e25bda7efdb37a6}{W25\+Qx\+\_\+\+BUSY}} = 0x02U
+, \mbox{\hyperlink{_w25_qxx_8h_a60b5a99890e6b2a594ea0da99a7fc500aa72aad6c212d5811bad1a9640d7a5ee8}{W25\+Qx\+\_\+\+Time\+Out}} = 0x03U
+ \}
+\begin{DoxyCompactList}\small\item\em W25\+Qxx status Configuration Structure Definition. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group___w25_qxx___exported___functions_ga24cb218a5b913e686b7c84963a7dc1ce}{W25\+Qx\+\_\+\+Read\+\_\+\+ID\+\_\+8}} (uint8\+\_\+t $\ast$ID)
+\begin{DoxyCompactList}\small\item\em Read W25\+Qxx Device ID(ID7-\/\+ID0) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___w25_qxx___exported___functions_ga3204cb041051122d7a67bfce5e03362e}{W25\+Qx\+\_\+\+Read\+\_\+\+ID\+\_\+16}} (uint16\+\_\+t $\ast$ID)
+\begin{DoxyCompactList}\small\item\em Read W25\+Qxx Manufacturer ID + Device ID. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{group___w25_qxx___exported___functions_ga9637aa507d1a0ebf058661f83fc539ec}{W25\+Qx\+\_\+\+Write\+Enable}} (void)
+\begin{DoxyCompactList}\small\item\em Enable Write for W25\+Qxx. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___w25_qxx___exported___functions_ga2f4276de702f2df72969f0d9c0e138bc}{W25\+Qx\+\_\+\+Coerce\+\_\+\+Reset}} (void)
+\begin{DoxyCompactList}\small\item\em Coerce W25\+Qxx to Reset. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{group___w25_qxx___exported___functions_gac56d3a6b033cf74f79fdbed4439713c3}{W25\+Qx\+\_\+\+Reset}} (void)
+\begin{DoxyCompactList}\small\item\em Reset W25\+Qxx. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{group___w25_qxx___exported___functions_ga2caae9586abcb6b8ea3c861d5936d9f8}{W25\+Qx\+\_\+\+Erase\+\_\+\+Sector}} (uint32\+\_\+t Erase\+Addr)
+\begin{DoxyCompactList}\small\item\em Erase the specified sector of the W25\+Qxx. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{group___w25_qxx___exported___functions_gadc2e1c604b673dd37af5668362323d4b}{W25\+Qx\+\_\+\+Erase\+ALL}} (void)
+\begin{DoxyCompactList}\small\item\em Erase all block of the W25\+Qxx. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{group___w25_qxx___exported___functions_ga93b23a00ebca78512ca3c5f48579e165}{W25\+Qx\+\_\+\+Read\+\_\+\+Data}} (uint8\+\_\+t $\ast$Data, uint32\+\_\+t Addr, uint32\+\_\+t Read\+Size)
+\begin{DoxyCompactList}\small\item\em Read an amount of Data to the W25\+Qxx. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{group___w25_qxx___exported___functions_ga8346849ab518385eaa285c2369b56e9f}{W25\+Qx\+\_\+\+Write\+\_\+\+Data}} (uint8\+\_\+t $\ast$Data, uint32\+\_\+t Write\+Addr, uint32\+\_\+t Size)
+\begin{DoxyCompactList}\small\item\em Write an amount of data to the W25\+Qxx. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Header file of W25\+Qxx module. 
+
+\begin{DoxyAuthor}{Author}
+Emotion\+\_\+\+Thorn 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+V1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+2023-\/05-\/05 
+\end{DoxyDate}
+
+
+Definition in file \mbox{\hyperlink{_w25_qxx_8h_source}{W25\+Qxx.\+h}}.
+
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{_w25_qxx_8h_acbc68e732bf512c98550d8286ea30a60}\label{_w25_qxx_8h_acbc68e732bf512c98550d8286ea30a60}} 
+\index{W25Qxx.h@{W25Qxx.h}!FLASH\_All\_Erase@{FLASH\_All\_Erase}}
+\index{FLASH\_All\_Erase@{FLASH\_All\_Erase}!W25Qxx.h@{W25Qxx.h}}
+\doxysubsubsection{\texorpdfstring{FLASH\_All\_Erase}{FLASH\_All\_Erase}}
+{\footnotesize\ttfamily \#define FLASH\+\_\+\+All\+\_\+\+Erase~0x\+C7}
+
+
+
+Definition at line \mbox{\hyperlink{_w25_qxx_8h_source_l00044}{44}} of file \mbox{\hyperlink{_w25_qxx_8h_source}{W25\+Qxx.\+h}}.
+
+\mbox{\Hypertarget{_w25_qxx_8h_ae4ad1ec961c1f40ae1d86c28858da634}\label{_w25_qxx_8h_ae4ad1ec961c1f40ae1d86c28858da634}} 
+\index{W25Qxx.h@{W25Qxx.h}!Flash\_CS\_Discard@{Flash\_CS\_Discard}}
+\index{Flash\_CS\_Discard@{Flash\_CS\_Discard}!W25Qxx.h@{W25Qxx.h}}
+\doxysubsubsection{\texorpdfstring{Flash\_CS\_Discard}{Flash\_CS\_Discard}}
+{\footnotesize\ttfamily \#define Flash\+\_\+\+CS\+\_\+\+Discard(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~HAL\+\_\+\+GPIO\+\_\+\+Write\+Pin(Flash\+\_\+\+CS\+\_\+\+GPIO\+\_\+\+Port, Flash\+\_\+\+CS\+\_\+\+Pin, GPIO\+\_\+\+PIN\+\_\+\+SET)}
+
+
+
+Definition at line \mbox{\hyperlink{_w25_qxx_8h_source_l00017}{17}} of file \mbox{\hyperlink{_w25_qxx_8h_source}{W25\+Qxx.\+h}}.
+
+\mbox{\Hypertarget{_w25_qxx_8h_a4fcc517c6b5550dcf78f357b62b2d915}\label{_w25_qxx_8h_a4fcc517c6b5550dcf78f357b62b2d915}} 
+\index{W25Qxx.h@{W25Qxx.h}!Flash\_CS\_Select@{Flash\_CS\_Select}}
+\index{Flash\_CS\_Select@{Flash\_CS\_Select}!W25Qxx.h@{W25Qxx.h}}
+\doxysubsubsection{\texorpdfstring{Flash\_CS\_Select}{Flash\_CS\_Select}}
+{\footnotesize\ttfamily \#define Flash\+\_\+\+CS\+\_\+\+Select(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~HAL\+\_\+\+GPIO\+\_\+\+Write\+Pin(Flash\+\_\+\+CS\+\_\+\+GPIO\+\_\+\+Port, Flash\+\_\+\+CS\+\_\+\+Pin, GPIO\+\_\+\+PIN\+\_\+\+RESET)}
+
+
+
+Definition at line \mbox{\hyperlink{_w25_qxx_8h_source_l00016}{16}} of file \mbox{\hyperlink{_w25_qxx_8h_source}{W25\+Qxx.\+h}}.
+
+\mbox{\Hypertarget{_w25_qxx_8h_a6b59c983ae21d8d87d4b6199c67e6ee2}\label{_w25_qxx_8h_a6b59c983ae21d8d87d4b6199c67e6ee2}} 
+\index{W25Qxx.h@{W25Qxx.h}!FLASH\_Empty@{FLASH\_Empty}}
+\index{FLASH\_Empty@{FLASH\_Empty}!W25Qxx.h@{W25Qxx.h}}
+\doxysubsubsection{\texorpdfstring{FLASH\_Empty}{FLASH\_Empty}}
+{\footnotesize\ttfamily \#define FLASH\+\_\+\+Empty~0x00}
+
+
+
+Definition at line \mbox{\hyperlink{_w25_qxx_8h_source_l00039}{39}} of file \mbox{\hyperlink{_w25_qxx_8h_source}{W25\+Qxx.\+h}}.
+
+\mbox{\Hypertarget{_w25_qxx_8h_ad8213b2026298c8ccd2aa0a1700f326e}\label{_w25_qxx_8h_ad8213b2026298c8ccd2aa0a1700f326e}} 
+\index{W25Qxx.h@{W25Qxx.h}!FLASH\_Enable\_Reset@{FLASH\_Enable\_Reset}}
+\index{FLASH\_Enable\_Reset@{FLASH\_Enable\_Reset}!W25Qxx.h@{W25Qxx.h}}
+\doxysubsubsection{\texorpdfstring{FLASH\_Enable\_Reset}{FLASH\_Enable\_Reset}}
+{\footnotesize\ttfamily \#define FLASH\+\_\+\+Enable\+\_\+\+Reset~0x66}
+
+
+
+W25\+Qxx Commands. 
+
+
+
+Definition at line \mbox{\hyperlink{_w25_qxx_8h_source_l00037}{37}} of file \mbox{\hyperlink{_w25_qxx_8h_source}{W25\+Qxx.\+h}}.
+
+\mbox{\Hypertarget{_w25_qxx_8h_a31594987e946d454ba756411759bf2e2}\label{_w25_qxx_8h_a31594987e946d454ba756411759bf2e2}} 
+\index{W25Qxx.h@{W25Qxx.h}!FLASH\_ENABLE\_Write@{FLASH\_ENABLE\_Write}}
+\index{FLASH\_ENABLE\_Write@{FLASH\_ENABLE\_Write}!W25Qxx.h@{W25Qxx.h}}
+\doxysubsubsection{\texorpdfstring{FLASH\_ENABLE\_Write}{FLASH\_ENABLE\_Write}}
+{\footnotesize\ttfamily \#define FLASH\+\_\+\+ENABLE\+\_\+\+Write~0x06}
+
+
+
+Definition at line \mbox{\hyperlink{_w25_qxx_8h_source_l00042}{42}} of file \mbox{\hyperlink{_w25_qxx_8h_source}{W25\+Qxx.\+h}}.
+
+\mbox{\Hypertarget{_w25_qxx_8h_a06e512a40b9b9fd70a5418ae36321cde}\label{_w25_qxx_8h_a06e512a40b9b9fd70a5418ae36321cde}} 
+\index{W25Qxx.h@{W25Qxx.h}!FLASH\_Erase@{FLASH\_Erase}}
+\index{FLASH\_Erase@{FLASH\_Erase}!W25Qxx.h@{W25Qxx.h}}
+\doxysubsubsection{\texorpdfstring{FLASH\_Erase}{FLASH\_Erase}}
+{\footnotesize\ttfamily \#define FLASH\+\_\+\+Erase~0x20}
+
+
+
+Definition at line \mbox{\hyperlink{_w25_qxx_8h_source_l00043}{43}} of file \mbox{\hyperlink{_w25_qxx_8h_source}{W25\+Qxx.\+h}}.
+
+\mbox{\Hypertarget{_w25_qxx_8h_a36a421a4bfdd773d64dfd9aa44d197fc}\label{_w25_qxx_8h_a36a421a4bfdd773d64dfd9aa44d197fc}} 
+\index{W25Qxx.h@{W25Qxx.h}!FLASH\_ID\_16Byte@{FLASH\_ID\_16Byte}}
+\index{FLASH\_ID\_16Byte@{FLASH\_ID\_16Byte}!W25Qxx.h@{W25Qxx.h}}
+\doxysubsubsection{\texorpdfstring{FLASH\_ID\_16Byte}{FLASH\_ID\_16Byte}}
+{\footnotesize\ttfamily \#define FLASH\+\_\+\+ID\+\_\+16\+Byte~0x90}
+
+
+
+Definition at line \mbox{\hyperlink{_w25_qxx_8h_source_l00040}{40}} of file \mbox{\hyperlink{_w25_qxx_8h_source}{W25\+Qxx.\+h}}.
+
+\mbox{\Hypertarget{_w25_qxx_8h_ad9b07a83d27301170f79e099dd940fe5}\label{_w25_qxx_8h_ad9b07a83d27301170f79e099dd940fe5}} 
+\index{W25Qxx.h@{W25Qxx.h}!FLASH\_ID\_8Byte@{FLASH\_ID\_8Byte}}
+\index{FLASH\_ID\_8Byte@{FLASH\_ID\_8Byte}!W25Qxx.h@{W25Qxx.h}}
+\doxysubsubsection{\texorpdfstring{FLASH\_ID\_8Byte}{FLASH\_ID\_8Byte}}
+{\footnotesize\ttfamily \#define FLASH\+\_\+\+ID\+\_\+8\+Byte~0x\+AB}
+
+
+
+Definition at line \mbox{\hyperlink{_w25_qxx_8h_source_l00041}{41}} of file \mbox{\hyperlink{_w25_qxx_8h_source}{W25\+Qxx.\+h}}.
+
+\mbox{\Hypertarget{_w25_qxx_8h_a371291e5c71a3cbd1de3f550c8f928a8}\label{_w25_qxx_8h_a371291e5c71a3cbd1de3f550c8f928a8}} 
+\index{W25Qxx.h@{W25Qxx.h}!FLASH\_Read@{FLASH\_Read}}
+\index{FLASH\_Read@{FLASH\_Read}!W25Qxx.h@{W25Qxx.h}}
+\doxysubsubsection{\texorpdfstring{FLASH\_Read}{FLASH\_Read}}
+{\footnotesize\ttfamily \#define FLASH\+\_\+\+Read~0x03}
+
+
+
+Definition at line \mbox{\hyperlink{_w25_qxx_8h_source_l00045}{45}} of file \mbox{\hyperlink{_w25_qxx_8h_source}{W25\+Qxx.\+h}}.
+
+\mbox{\Hypertarget{_w25_qxx_8h_aae6b121ef8f92367a1b9dd55ca4d30b2}\label{_w25_qxx_8h_aae6b121ef8f92367a1b9dd55ca4d30b2}} 
+\index{W25Qxx.h@{W25Qxx.h}!FLASH\_Reset\_Device@{FLASH\_Reset\_Device}}
+\index{FLASH\_Reset\_Device@{FLASH\_Reset\_Device}!W25Qxx.h@{W25Qxx.h}}
+\doxysubsubsection{\texorpdfstring{FLASH\_Reset\_Device}{FLASH\_Reset\_Device}}
+{\footnotesize\ttfamily \#define FLASH\+\_\+\+Reset\+\_\+\+Device~0x99}
+
+
+
+Definition at line \mbox{\hyperlink{_w25_qxx_8h_source_l00038}{38}} of file \mbox{\hyperlink{_w25_qxx_8h_source}{W25\+Qxx.\+h}}.
+
+\mbox{\Hypertarget{_w25_qxx_8h_af604a6fd6c4c431959d1bf7c66a64008}\label{_w25_qxx_8h_af604a6fd6c4c431959d1bf7c66a64008}} 
+\index{W25Qxx.h@{W25Qxx.h}!FLASH\_Write@{FLASH\_Write}}
+\index{FLASH\_Write@{FLASH\_Write}!W25Qxx.h@{W25Qxx.h}}
+\doxysubsubsection{\texorpdfstring{FLASH\_Write}{FLASH\_Write}}
+{\footnotesize\ttfamily \#define FLASH\+\_\+\+Write~0x02}
+
+
+
+Definition at line \mbox{\hyperlink{_w25_qxx_8h_source_l00046}{46}} of file \mbox{\hyperlink{_w25_qxx_8h_source}{W25\+Qxx.\+h}}.
+
+\mbox{\Hypertarget{_w25_qxx_8h_a67e31a25044821b15b1df8749802692f}\label{_w25_qxx_8h_a67e31a25044821b15b1df8749802692f}} 
+\index{W25Qxx.h@{W25Qxx.h}!Read\_Status\_Reg\_1@{Read\_Status\_Reg\_1}}
+\index{Read\_Status\_Reg\_1@{Read\_Status\_Reg\_1}!W25Qxx.h@{W25Qxx.h}}
+\doxysubsubsection{\texorpdfstring{Read\_Status\_Reg\_1}{Read\_Status\_Reg\_1}}
+{\footnotesize\ttfamily \#define Read\+\_\+\+Status\+\_\+\+Reg\+\_\+1~0x05}
+
+
+
+Definition at line \mbox{\hyperlink{_w25_qxx_8h_source_l00048}{48}} of file \mbox{\hyperlink{_w25_qxx_8h_source}{W25\+Qxx.\+h}}.
+
+\mbox{\Hypertarget{_w25_qxx_8h_a98dc5455c94ccc67f05be2bbebd74329}\label{_w25_qxx_8h_a98dc5455c94ccc67f05be2bbebd74329}} 
+\index{W25Qxx.h@{W25Qxx.h}!Read\_Status\_Reg\_2@{Read\_Status\_Reg\_2}}
+\index{Read\_Status\_Reg\_2@{Read\_Status\_Reg\_2}!W25Qxx.h@{W25Qxx.h}}
+\doxysubsubsection{\texorpdfstring{Read\_Status\_Reg\_2}{Read\_Status\_Reg\_2}}
+{\footnotesize\ttfamily \#define Read\+\_\+\+Status\+\_\+\+Reg\+\_\+2~0x35}
+
+
+
+Definition at line \mbox{\hyperlink{_w25_qxx_8h_source_l00049}{49}} of file \mbox{\hyperlink{_w25_qxx_8h_source}{W25\+Qxx.\+h}}.
+
+\mbox{\Hypertarget{_w25_qxx_8h_abcb681a7856bcb1ca1e14dc72c238271}\label{_w25_qxx_8h_abcb681a7856bcb1ca1e14dc72c238271}} 
+\index{W25Qxx.h@{W25Qxx.h}!Read\_Status\_Reg\_3@{Read\_Status\_Reg\_3}}
+\index{Read\_Status\_Reg\_3@{Read\_Status\_Reg\_3}!W25Qxx.h@{W25Qxx.h}}
+\doxysubsubsection{\texorpdfstring{Read\_Status\_Reg\_3}{Read\_Status\_Reg\_3}}
+{\footnotesize\ttfamily \#define Read\+\_\+\+Status\+\_\+\+Reg\+\_\+3~015}
+
+
+
+Definition at line \mbox{\hyperlink{_w25_qxx_8h_source_l00050}{50}} of file \mbox{\hyperlink{_w25_qxx_8h_source}{W25\+Qxx.\+h}}.
+
+\mbox{\Hypertarget{_w25_qxx_8h_a302da4b35f664b61cf0096c875c0e126}\label{_w25_qxx_8h_a302da4b35f664b61cf0096c875c0e126}} 
+\index{W25Qxx.h@{W25Qxx.h}!W25Qx\_Erase\_TIMEOUT\_VALUE@{W25Qx\_Erase\_TIMEOUT\_VALUE}}
+\index{W25Qx\_Erase\_TIMEOUT\_VALUE@{W25Qx\_Erase\_TIMEOUT\_VALUE}!W25Qxx.h@{W25Qxx.h}}
+\doxysubsubsection{\texorpdfstring{W25Qx\_Erase\_TIMEOUT\_VALUE}{W25Qx\_Erase\_TIMEOUT\_VALUE}}
+{\footnotesize\ttfamily \#define W25\+Qx\+\_\+\+Erase\+\_\+\+TIMEOUT\+\_\+\+VALUE~5000}
+
+
+
+W25\+Qxx Configuration. 
+
+
+
+Definition at line \mbox{\hyperlink{_w25_qxx_8h_source_l00031}{31}} of file \mbox{\hyperlink{_w25_qxx_8h_source}{W25\+Qxx.\+h}}.
+
+\mbox{\Hypertarget{_w25_qxx_8h_ade349fbc9427f1e8674d8432040ff2d9}\label{_w25_qxx_8h_ade349fbc9427f1e8674d8432040ff2d9}} 
+\index{W25Qxx.h@{W25Qxx.h}!W25QX\_PAGE\_SIZE@{W25QX\_PAGE\_SIZE}}
+\index{W25QX\_PAGE\_SIZE@{W25QX\_PAGE\_SIZE}!W25Qxx.h@{W25Qxx.h}}
+\doxysubsubsection{\texorpdfstring{W25QX\_PAGE\_SIZE}{W25QX\_PAGE\_SIZE}}
+{\footnotesize\ttfamily \#define W25\+QX\+\_\+\+PAGE\+\_\+\+SIZE~0x100}
+
+
+
+Definition at line \mbox{\hyperlink{_w25_qxx_8h_source_l00033}{33}} of file \mbox{\hyperlink{_w25_qxx_8h_source}{W25\+Qxx.\+h}}.
+
+\mbox{\Hypertarget{_w25_qxx_8h_afbbdaaab839393e45afaf6d8723fb829}\label{_w25_qxx_8h_afbbdaaab839393e45afaf6d8723fb829}} 
+\index{W25Qxx.h@{W25Qxx.h}!W25Qx\_TIMEOUT\_VALUE@{W25Qx\_TIMEOUT\_VALUE}}
+\index{W25Qx\_TIMEOUT\_VALUE@{W25Qx\_TIMEOUT\_VALUE}!W25Qxx.h@{W25Qxx.h}}
+\doxysubsubsection{\texorpdfstring{W25Qx\_TIMEOUT\_VALUE}{W25Qx\_TIMEOUT\_VALUE}}
+{\footnotesize\ttfamily \#define W25\+Qx\+\_\+\+TIMEOUT\+\_\+\+VALUE~1000}
+
+
+
+Definition at line \mbox{\hyperlink{_w25_qxx_8h_source_l00032}{32}} of file \mbox{\hyperlink{_w25_qxx_8h_source}{W25\+Qxx.\+h}}.
+
+
+
+\doxysubsection{Enumeration Type Documentation}
+\mbox{\Hypertarget{_w25_qxx_8h_a60b5a99890e6b2a594ea0da99a7fc500}\label{_w25_qxx_8h_a60b5a99890e6b2a594ea0da99a7fc500}} 
+\index{W25Qxx.h@{W25Qxx.h}!W25Qx\_StatusTypeDef@{W25Qx\_StatusTypeDef}}
+\index{W25Qx\_StatusTypeDef@{W25Qx\_StatusTypeDef}!W25Qxx.h@{W25Qxx.h}}
+\doxysubsubsection{\texorpdfstring{W25Qx\_StatusTypeDef}{W25Qx\_StatusTypeDef}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{_w25_qxx_8h_a60b5a99890e6b2a594ea0da99a7fc500}{W25\+Qx\+\_\+\+Status\+Type\+Def}}}
+
+
+
+W25\+Qxx status Configuration Structure Definition. 
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{W25Qx\_OK@{W25Qx\_OK}!W25Qxx.h@{W25Qxx.h}}\index{W25Qxx.h@{W25Qxx.h}!W25Qx\_OK@{W25Qx\_OK}}}\mbox{\Hypertarget{_w25_qxx_8h_a60b5a99890e6b2a594ea0da99a7fc500a03237e03fd445eec2c27542929a5cc25}\label{_w25_qxx_8h_a60b5a99890e6b2a594ea0da99a7fc500a03237e03fd445eec2c27542929a5cc25}} 
+W25\+Qx\+\_\+\+OK&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{W25Qx\_ERROR@{W25Qx\_ERROR}!W25Qxx.h@{W25Qxx.h}}\index{W25Qxx.h@{W25Qxx.h}!W25Qx\_ERROR@{W25Qx\_ERROR}}}\mbox{\Hypertarget{_w25_qxx_8h_a60b5a99890e6b2a594ea0da99a7fc500a3616b0dbff2aac1770d026ba88895cbc}\label{_w25_qxx_8h_a60b5a99890e6b2a594ea0da99a7fc500a3616b0dbff2aac1770d026ba88895cbc}} 
+W25\+Qx\+\_\+\+ERROR&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{W25Qx\_BUSY@{W25Qx\_BUSY}!W25Qxx.h@{W25Qxx.h}}\index{W25Qxx.h@{W25Qxx.h}!W25Qx\_BUSY@{W25Qx\_BUSY}}}\mbox{\Hypertarget{_w25_qxx_8h_a60b5a99890e6b2a594ea0da99a7fc500ab5a37844d8c56fb94e25bda7efdb37a6}\label{_w25_qxx_8h_a60b5a99890e6b2a594ea0da99a7fc500ab5a37844d8c56fb94e25bda7efdb37a6}} 
+W25\+Qx\+\_\+\+BUSY&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{W25Qx\_TimeOut@{W25Qx\_TimeOut}!W25Qxx.h@{W25Qxx.h}}\index{W25Qxx.h@{W25Qxx.h}!W25Qx\_TimeOut@{W25Qx\_TimeOut}}}\mbox{\Hypertarget{_w25_qxx_8h_a60b5a99890e6b2a594ea0da99a7fc500aa72aad6c212d5811bad1a9640d7a5ee8}\label{_w25_qxx_8h_a60b5a99890e6b2a594ea0da99a7fc500aa72aad6c212d5811bad1a9640d7a5ee8}} 
+W25\+Qx\+\_\+\+Time\+Out&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+Definition at line \mbox{\hyperlink{_w25_qxx_8h_source_l00021}{21}} of file \mbox{\hyperlink{_w25_qxx_8h_source}{W25\+Qxx.\+h}}.
+
