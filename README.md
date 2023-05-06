@@ -45,4 +45,6 @@ I/O Pin header is 2.54mm`SMT`.Optionally add baseplate for Expansion,[**Baseplat
 * 👓The whole project uses a two-layer process. If you don't have kicad installed, you can directly view Bom for welding. Gerber files are also in HDK
     - [**Commander-bom**](./HDK/Commander/bom/Commander.html)
     - [**Expansion-bom**](./HDK/Expansion/bom/Expansion.html)
-*  I E-mail**2981263629@qq.com**,if you have questions or new idea can send an email to me⌨
+* Continuous update, currently replenishing Demo.📃
+* welcome to submit your questions, and I also hope you can submit your own updates to the project📡
+* I E-mail**2981263629@qq.com**,if you have questions or new idea can send an email to me⌨
