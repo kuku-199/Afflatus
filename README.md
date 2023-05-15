@@ -43,8 +43,9 @@ I/O Pin header is 2.54mm`SMT`.Optionally add baseplate for Expansion,[**Baseplat
 *  ⚠️Please read the PCB Engineering Instructions pdf file
     - 📖[Engineering declaration](./%E5%B7%A5%E7%A8%8B%E5%A3%B0%E6%98%8E.pdf)
 * 👓The whole project uses a two-layer process. If you don't have kicad installed, you can directly view Bom for welding. Gerber files are also in HDK
-    - [**Commander-bom**](./HDK/Commander/bom/Commander.html)
+    - [**Commander-bom**](htmlpreview.github.io/?./HDK/Commander/bom/Commander.html)
     - [**Expansion-bom**](./HDK/Expansion/bom/Expansion.html)
 * Continuous update, currently replenishing Demo.📃
 * welcome to submit your questions, and I also hope you can submit your own updates to the project📡
 * I E-mail**2981263629@qq.com**,if you have questions or new idea can send an email to me⌨
+*❗ ❗ ❗ BUG of IO silk-screen in early stage versions,do not affect usage.(Partial left-right reverse).It has now been repaired.❗ ❗ ❗
