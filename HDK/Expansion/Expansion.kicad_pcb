@@ -1095,7 +1095,7 @@
       (stroke (width 0.2) (type solid)) (layer "Edge.Cuts") (tstamp 649cf852-54e7-4957-b918-9838bd60066f))
     (fp_arc (start 22.56627 18.698019) (mid 21.687588 20.819337) (end 19.56627 21.698019)
       (stroke (width 0.2) (type solid)) (layer "Edge.Cuts") (tstamp cf0b1114-f0ef-45b2-b591-daebab6142d2))
-    (fp_arc (start 24.06627 -21.698018) (mid 25.480474 -21.112237) (end 26.06627 -19.698018)
+    (fp_arc (start 24.06627 -21.698018) (mid 25.480509 -21.112243) (end 26.06627 -19.698018)
       (stroke (width 0.2) (type solid)) (layer "Edge.Cuts") (tstamp 219c2765-915f-4d62-95b6-c84443ee252a))
     (fp_arc (start 26.06627 -7.70125) (mid 25.48047 -6.287044) (end 24.06627 -5.70125)
       (stroke (width 0.2) (type solid)) (layer "Edge.Cuts") (tstamp 70640f94-0e8b-4425-bbf5-1345f352a756))
