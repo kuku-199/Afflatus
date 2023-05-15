@@ -48,4 +48,4 @@ I/O Pin header is 2.54mm`SMT`.Optionally add baseplate for Expansion,[**Baseplat
 * Continuous update, currently replenishing Demo.📃
 * welcome to submit your questions, and I also hope you can submit your own updates to the project📡
 * I E-mail**2981263629@qq.com**,if you have questions or new idea can send an email to me⌨
-*❗ ❗ ❗ BUG of IO silk-screen in early stage versions,do not affect usage.(Partial left-right reverse).It has now been repaired.❗ ❗ ❗
+* ❗ ❗ ❗ BUG of IO silk-screen in early stage versions,do not affect usage.(Partial left-right reverse).It has now been repaired.❗ ❗ ❗
