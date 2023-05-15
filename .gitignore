@@ -1,0 +1,66 @@
+HDK/Expansion/Expansion-backups/
+HDK/Commander/Commander-backups/
+
+HDK/Expansion/Expansion-backups/*.ini
+HDK/Commander/Commander-backups/*.ini
+HDK/Expansion/Expansion-backups/*fp-info-cache
+HDK/Commander/Commander-backups/*fp-info-cache
+
+# Prerequisites
+*.d
+
+.vscode
+
+.mxproject
+
+*.scvd
+*.lst
+*.dep
+*.iex
+*.crf
+*.lnp
+*.htm
+*.uvguix.*
+UNSupport/
+DebugConfig/
+RTE/
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Executables
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
