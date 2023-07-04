@@ -56,22 +56,20 @@
         }
       ],
       "drc_exclusions": [
-        "clearance|138260000|77170000|90aa432e-8fba-409a-aac8-27e3599eb351|ec87213a-56bc-463e-a434-89256ae0296f",
-        "hole_clearance|138260000|77170000|ec87213a-56bc-463e-a434-89256ae0296f|90aa432e-8fba-409a-aac8-27e3599eb351",
+        "lib_footprint_issues|126539725|74822642|19ebaa15-79a9-4575-8489-3781a2eb6b02|00000000-0000-0000-0000-000000000000",
         "lib_footprint_issues|144090000|78420000|65767b06-9669-43b2-a96f-8467b42ca625|00000000-0000-0000-0000-000000000000",
         "silk_edge_clearance|116800000|78675000|f9ca45c7-e879-4fcb-8bed-aa2c36d325ee|09c54349-264a-4f42-9bb7-c514a0b6b234",
         "silk_edge_clearance|116800000|81675000|7f3ad758-87fc-4c58-a2a2-093032f2f4f1|b421dd34-5052-432c-a422-1dc37cdc6774",
         "silk_edge_clearance|119800000|61675000|6ca00d20-8983-4343-a4ff-99fc0dcb6cbb|4ce769f0-62d8-4b4e-9287-02a690927d0e",
         "silk_edge_clearance|119800000|61675000|6ca00d20-8983-4343-a4ff-99fc0dcb6cbb|4df3f892-fd72-49f1-874b-bf84430bcb1b",
         "silk_edge_clearance|119800000|81675000|a7c80b5f-a19a-4625-be59-d0365f71a125|774dba95-ad59-45e5-aa40-ec84d3923e01",
-        "silk_edge_clearance|147525000|81675000|a7c80b5f-a19a-4625-be59-d0365f71a125|75fcc835-3554-4038-a13d-3d964c316f61",
-        "silk_edge_clearance|154825000|81675000|a7c80b5f-a19a-4625-be59-d0365f71a125|83833a1f-b666-477f-b231-77895bae0418",
         "silk_edge_clearance|158800000|61675000|6ca00d20-8983-4343-a4ff-99fc0dcb6cbb|3e2e3f5c-baa3-4611-9c6f-37b4a1783589",
         "silk_edge_clearance|158800000|81675000|a7c80b5f-a19a-4625-be59-d0365f71a125|69f3ee06-5078-4e1c-8159-ce9c398a3eee",
         "silk_edge_clearance|158800000|81675000|a7c80b5f-a19a-4625-be59-d0365f71a125|ed302596-f0cc-40d1-aed7-88b13a805585",
         "silk_edge_clearance|161800000|64675000|410d351b-eb43-44f7-97c8-fe6601228011|0d3fbab9-9731-49ec-a12f-98814c1a3657",
         "via_dangling|130790000|65965000|3908f2ca-5f2c-419c-a83f-7bcedbd7b30b|00000000-0000-0000-0000-000000000000",
         "via_dangling|130800000|64980000|3c3d33f2-1049-4810-83fe-374a28b9b67c|00000000-0000-0000-0000-000000000000",
+        "via_dangling|130850000|77360000|c9165f95-7dc5-44b7-8ae8-9e506ff7e198|00000000-0000-0000-0000-000000000000",
         "via_dangling|131700000|64980000|9f50662f-54d5-4ebc-8393-b913f516d473|00000000-0000-0000-0000-000000000000",
         "via_dangling|131700000|65940000|6981a988-3f85-4884-a16b-6572a7ff2ae2|00000000-0000-0000-0000-000000000000"
       ],
@@ -111,7 +109,7 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
@@ -476,7 +474,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Commander.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -505,7 +503,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "F:\\KiCad\\Work\\Example\\Example_sch.kicad_wks",
     "plot_directory": "./",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",

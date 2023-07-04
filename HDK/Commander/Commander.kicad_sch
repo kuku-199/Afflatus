@@ -4,10 +4,6 @@
 
   (paper "A4")
 
-  (title_block
-    (rev "1.1v")
-  )
-
   (lib_symbols
     (symbol "BTB_0.8_2X20P_1" (in_bom yes) (on_board yes)
       (property "Reference" "j" (at -1.905 23.495 0)
@@ -3082,10 +3078,6 @@
     (effects (font (size 1.5 1.5) italic) (justify left bottom))
     (uuid 0cffba6b-e9ea-435e-b4d1-ab94842a08e4)
   )
-  (label "VBAT_Pin" (at 262.89 123.19 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 0d9bba1c-dfe2-4908-b646-7338c25e6403)
-  )
   (label "LCD.CS" (at 264.16 45.72 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27) italic) (justify right bottom))
     (uuid 0f8850eb-9060-431b-8324-10bfb020c50a)
@@ -3105,6 +3097,14 @@
   (label "PA8" (at 30.48 60.325 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27) italic) (justify left bottom))
     (uuid 14e7afd0-14ba-450d-b7d6-c9f0b4344795)
+  )
+  (label "VBAT_Pin" (at 247.65 132.08 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 18e78025-402b-470d-ac9a-45289cb02ce9)
+  )
+  (label "VBAT+" (at 262.89 123.19 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 1f36e1c2-fb36-4ae0-b06b-bb1a57c2e0dc)
   )
   (label "NRST" (at 120.015 70.485 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27) italic) (justify right bottom))
@@ -3513,10 +3513,6 @@
   (label "PA3" (at 25.4 153.67 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27) italic) (justify left bottom))
     (uuid f99ea122-bf36-4535-a9a2-068c53324f3f)
-  )
-  (label "VBAT+" (at 247.65 132.08 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid fa3660f7-3520-409a-bf5b-41ff4ee79989)
   )
   (label "PB4" (at 30.48 93.345 0) (fields_autoplaced)
     (effects (font (size 1.5 1.5) italic) (justify left bottom))
