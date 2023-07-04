@@ -1,14 +1,13 @@
-HDK/Expansion/Expansion-backups/
-HDK/Commander/Commander-backups/
-
-HDK/Expansion/Expansion-backups/*.ini
-HDK/Commander/Commander-backups/*.ini
-HDK/Expansion/Expansion-backups/*fp-info-cache
-HDK/Commander/Commander-backups/*fp-info-cache
-
+Commander-backups/
+Expansion-backups/
 # Prerequisites
 *.d
 
+*.Thorn
+*.ini
+*fp-info-cache
+*fp-lib-table
+.uvoptx
 .vscode
 
 .mxproject
@@ -21,6 +20,7 @@ HDK/Commander/Commander-backups/*fp-info-cache
 *.lnp
 *.htm
 *.uvguix.*
+*.bat
 UNSupport/
 DebugConfig/
 RTE/
@@ -64,3 +64,29 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*.kicad_prl
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.xml
+*.csv
